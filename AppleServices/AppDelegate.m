@@ -17,8 +17,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    UIViewController *leftView = [mainStoryboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+        UIViewController *centerView = [mainStoryboard instantiateViewControllerWithIdentifier:@"CenterViewController"];
+    
+    UINavigationController *leftNav = [[UINavigationController alloc] initWithRootViewController:leftView];
+    UINavigationController *centerNav = [[UINavigationController alloc] initWithRootViewController:centerView];
+    
+    self.drawerController = [[MMDrawerController alloc] initWithCenterViewController:centerNav leftDrawerViewController:leftNav];
+    
+    self.drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModePanningCenterView;
+    self.drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModePanningCenterView;
+    
+    _window.rootViewController = self.drawerController;
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
+
+
+// Add a UIButton in Interface Builder, and connect the action to this function.
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
