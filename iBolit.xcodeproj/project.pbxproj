@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		84006E6F1EF3017C00D2DD6B /* IKFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84006E6E1EF3017C00D2DD6B /* IKFullScreenViewController.m */; };
 		842DF6CE1ED93DAD00CE9B99 /* IKMapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DF6CD1ED93DAD00CE9B99 /* IKMapPin.m */; };
-		842DF6D01ED94D8200CE9B99 /* addresscompany.json in Resources */ = {isa = PBXBuildFile; fileRef = 842DF6CF1ED94D8200CE9B99 /* addresscompany.json */; };
 		842DF6D71ED9EEAC00CE9B99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842DF6D61ED9EEAC00CE9B99 /* MapKit.framework */; };
 		842DF6DA1ED9EFE400CE9B99 /* IKInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DF6D91ED9EFE400CE9B99 /* IKInformationViewController.m */; };
 		844FC2DF1ED4C15A00C38B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A1CEE1ED35C3D0035F233 /* AppDelegate.m */; };
@@ -58,27 +57,6 @@
 		84BABB9F1EEF238300528F14 /* IKCompanyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BABB9E1EEF238300528F14 /* IKCompanyDetailViewController.m */; };
 		84EC59551EF8476200020199 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59531EF8476200020199 /* icon.png */; };
 		84EC59561EF8476200020199 /* launch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59541EF8476200020199 /* launch-icon.png */; };
-		84EC59711EF86AC300020199 /* a-service.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC595C1EF86AC300020199 /* a-service.png */; };
-		84EC59721EF86AC300020199 /* appledoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC595D1EF86AC300020199 /* appledoc.png */; };
-		84EC59731EF86AC300020199 /* applefix.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC595E1EF86AC300020199 /* applefix.png */; };
-		84EC59741EF86AC300020199 /* applekiev.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC595F1EF86AC300020199 /* applekiev.png */; };
-		84EC59751EF86AC300020199 /* fix4u.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59601EF86AC300020199 /* fix4u.png */; };
-		84EC59761EF86AC300020199 /* gutenservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59611EF86AC300020199 /* gutenservice.png */; };
-		84EC59771EF86AC300020199 /* i-fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59621EF86AC300020199 /* i-fix.png */; };
-		84EC59781EF86AC300020199 /* ifix.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59631EF86AC300020199 /* ifix.png */; };
-		84EC59791EF86AC300020199 /* iloveservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59641EF86AC300020199 /* iloveservice.png */; };
-		84EC597A1EF86AC300020199 /* imobi.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59651EF86AC300020199 /* imobi.png */; };
-		84EC597B1EF86AC300020199 /* iphonechik.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59661EF86AC300020199 /* iphonechik.png */; };
-		84EC597C1EF86AC300020199 /* irepservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59671EF86AC300020199 /* irepservice.png */; };
-		84EC597D1EF86AC300020199 /* iservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59681EF86AC300020199 /* iservice.png */; };
-		84EC597E1EF86AC300020199 /* quickfix.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59691EF86AC300020199 /* quickfix.png */; };
-		84EC597F1EF86AC300020199 /* restore.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC596A1EF86AC300020199 /* restore.png */; };
-		84EC59801EF86AC300020199 /* royal-service.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC596B1EF86AC300020199 /* royal-service.png */; };
-		84EC59811EF86AC300020199 /* service-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC596C1EF86AC300020199 /* service-iphone.png */; };
-		84EC59821EF86AC300020199 /* taxophone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC596D1EF86AC300020199 /* taxophone.png */; };
-		84EC59831EF86AC300020199 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 84EC596E1EF86AC300020199 /* Thumbs.db */; };
-		84EC59841EF86AC300020199 /* uipservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC596F1EF86AC300020199 /* uipservice.png */; };
-		84EC59851EF86AC300020199 /* youmix.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC59701EF86AC300020199 /* youmix.png */; };
 		E0902CFCC6AA93BE6DC6D004 /* libPods-AppleServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC86D05195AF2B06EB6C72A1 /* libPods-AppleServices.a */; };
 /* End PBXBuildFile section */
 
@@ -532,8 +510,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BABB7B1EED47D100528F14 /* iphone7plus.png in Resources */,
-				84EC59821EF86AC300020199 /* taxophone.png in Resources */,
-				84EC597A1EF86AC300020199 /* imobi.png in Resources */,
 				84BABB751EED47D100528F14 /* iphone5s.png in Resources */,
 				84BABB8C1EEDD75000528F14 /* price-iphone-4-s.png in Resources */,
 				847A1CFA1ED35C3D0035F233 /* LaunchScreen.storyboard in Resources */,
@@ -545,44 +521,24 @@
 				84BABB921EEDD75000528F14 /* price-iphone-6-s-plus.png in Resources */,
 				84BABB941EEDD75000528F14 /* price-iphone-6.png in Resources */,
 				84BABB951EEDD75000528F14 /* price-iphone-7.png in Resources */,
-				84EC59731EF86AC300020199 /* applefix.png in Resources */,
-				84EC59811EF86AC300020199 /* service-iphone.png in Resources */,
 				84BABB781EED47D100528F14 /* iphone6s.png in Resources */,
 				84BABB761EED47D100528F14 /* iphone6.png in Resources */,
-				84EC59741EF86AC300020199 /* applekiev.png in Resources */,
 				84BABB961EEDD75000528F14 /* price-iphone-se.png in Resources */,
 				84BABB8F1EEDD75000528F14 /* price-iphone-5.png in Resources */,
-				84EC59851EF86AC300020199 /* youmix.png in Resources */,
 				84BABB8E1EEDD75000528F14 /* price-iphone-5-c.png in Resources */,
-				84EC59751EF86AC300020199 /* fix4u.png in Resources */,
 				84BABB791EED47D100528F14 /* iphone6splus.png in Resources */,
-				842DF6D01ED94D8200CE9B99 /* addresscompany.json in Resources */,
-				84EC59801EF86AC300020199 /* royal-service.png in Resources */,
-				84EC59761EF86AC300020199 /* gutenservice.png in Resources */,
 				84EC59561EF8476200020199 /* launch-icon.png in Resources */,
 				84BABB721EED47D100528F14 /* iphone4s.png in Resources */,
 				84BABB911EEDD75000528F14 /* price-iphone-6-plus.png in Resources */,
 				84BABB7A1EED47D100528F14 /* iphone7.png in Resources */,
-				84EC59831EF86AC300020199 /* Thumbs.db in Resources */,
 				84BABB8B1EEDD75000528F14 /* price-iphone-3.png in Resources */,
-				84EC597C1EF86AC300020199 /* irepservice.png in Resources */,
-				84EC59791EF86AC300020199 /* iloveservice.png in Resources */,
-				84EC597B1EF86AC300020199 /* iphonechik.png in Resources */,
-				84EC59711EF86AC300020199 /* a-service.png in Resources */,
-				84EC597F1EF86AC300020199 /* restore.png in Resources */,
-				84EC59721EF86AC300020199 /* appledoc.png in Resources */,
-				84EC597D1EF86AC300020199 /* iservice.png in Resources */,
 				84BABB8D1EEDD75000528F14 /* price-iphone-4.png in Resources */,
 				84BABB7E1EEDB84300528F14 /* price-iphone-7-plus.png in Resources */,
-				84EC59771EF86AC300020199 /* i-fix.png in Resources */,
 				84BABB901EEDD75000528F14 /* price-iphone-5s.png in Resources */,
 				847A1CF51ED35C3D0035F233 /* Main.storyboard in Resources */,
 				84BABB731EED47D100528F14 /* iphone5.png in Resources */,
 				84BABB711EED47D100528F14 /* iphone4.png in Resources */,
-				84EC597E1EF86AC300020199 /* quickfix.png in Resources */,
-				84EC59781EF86AC300020199 /* ifix.png in Resources */,
 				84BABB741EED47D100528F14 /* iphone5c.png in Resources */,
-				84EC59841EF86AC300020199 /* uipservice.png in Resources */,
 				84BABB771EED47D100528F14 /* iphone6plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
